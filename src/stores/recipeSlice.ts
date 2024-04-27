@@ -1,7 +1,6 @@
 import { StateCreator } from "zustand"
 import { getCategories, getRecipes, getRecipeById } from "../services/RecipeService"
 import type { Categories, Drink, Drinks, Recipe, SearFilter } from "../types"
-import Modal from "../components/Modal"
 import { FavoritesSliceType } from "./favoritesSlice"
 
 export type RecipeSliceType = {
